@@ -1,0 +1,10 @@
+{
+  "build": {
+    "dockerfile": "Dockerfile",
+    "docker": {
+      "context": ".",
+      "dockerfile": "Dockerfile"
+    }
+  },
+  "start": "node server.js"
+}
